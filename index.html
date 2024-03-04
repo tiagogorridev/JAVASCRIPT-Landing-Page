@@ -10,12 +10,16 @@
     <link rel="stylesheet" href="src/styles/header.css">
     <link rel="stylesheet" href="src/styles/home.css">
     <link rel="stylesheet" href="src/styles/menu.css">
+    <link rel="stylesheet" href="src/styles/testimonials.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <title>FOOD</title>
 </head>
@@ -37,10 +41,6 @@
                     <a href="#testimonials">Avaliações</a>    
                 </li>
             </ul>
-
-                <button class="btn-default">
-                    Peça Aqui
-                </button>
 
                 <button id="mobile_btn">
                     <i class="fa-solid fa-bars"></i>
@@ -78,7 +78,7 @@
 
                 <div id="cta_buttons">
                     <a href="#" class="btn-default">Ver Cardápio</a>
-                    <a href="tel:+55 (41) 988869690" id="phone_button">
+                    <a href="tel:+55 (55) 5555555555" id="phone_button">
                         <button class="btn-default">
                             <i class="fa-solid fa-phone"></i>
                         </button>
@@ -227,7 +227,86 @@
                 
             </div>
         </section>
+        
+        <section id="testimonials">
+            <img src="Imagens/chef.png" alt="Chefe" id="testimonials_chef">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">Reviews</h2>
+
+                <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="Imagens/avatar.png" alt="" class="feedback-avatar">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quaerat laboriosam ipsam repellat omnis obcaecati voluptas explicabo, quos, esse quo repellendus asperiores eius ipsa excepturi voluptates numquam molestias dolores et.
+                                    </p>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="Imagens/avatar.png" alt="" class="feedback-avatar">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quaerat laboriosam ipsam repellat omnis obcaecati voluptas explicabo, quos, esse quo repellendus asperiores eius ipsa excepturi voluptates numquam molestias dolores et.
+                                    </p>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais reviews
+                </button>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <img src="Imagens/wave.svg" alt="">
+
+        <div id="footer-itens">
+            <span id="copyright">&copy;Tiago Gorri</span>
+            
+            <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+        </div>
+    </footer>
     <script src="src/javascript/script.js"></script> 
 </body>
 </html>
