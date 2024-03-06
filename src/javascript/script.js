@@ -11,7 +11,7 @@ $(document).ready(function() {
     $(window).on('scroll', function () {
         const header = $('header');
 
-        let activeSecctionIndex = 0;
+        let activeSectionIndex = 0;
 
         const scrollPosition = $('window').scrollTop() - header.outerHeight();
 
@@ -24,7 +24,7 @@ $(document).ready(function() {
         sections.each(function(i) {
             const section = $(this);
             const sectionTop = section.offset().top - 96;
-            const sectionBottom = sectionTop+ section.outerHeight();
+            const sectionBottom = sectionTop + section.outerHeight();
 
             if(scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
                 activeSecctionIndex = i;
